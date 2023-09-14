@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persegi Panjang</title>
+    <style>
+        .calculator-container{
+            background-color: rgb(116, 77, 116);
+            color: whitesmoke;
+            width: 500px;
+            border: 30px solid rgb(103, 153, 174);
+            padding: 50px;
+            margin: auto;   
+        }
+        button{
+            background-color: rgb(103, 153, 174);
+            color: rgb(42, 53, 55);
+            border: none;
+            min-height: 50px;
+            min-width: 100px;
+            border-radius: 30px;
+        }
+        button:hover{
+            background-color: rgb(103, 153, 174);
+            color: azure;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>BMI Calculator</h1>
+        <p>Height In Meters</p>
+        <input class="height-input-field" type="text">
+        <p>Weight in Meters</p>
+        <input class="weight-input-field" type="text">
+        <button onclick="myFunction()" class="calculate">Calculate</button>
+    </div>
+    <script src="Script2.js"></script>
+</body>
+</html> 
+ 
